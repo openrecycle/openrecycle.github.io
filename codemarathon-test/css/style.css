@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+
+
+body {
+ font-family: 'PT Sans', sans-serif; 
+ font-size: 14px;
+ line-height: 22px;
+}
+
+header {
+	background: #dcdcdc;
+	height: 230px;
+	
+}
+
+img#logo {
+	margin: 60px 10px 0 0;
+	width: 100px;
+	float: left;
+
+}
+
+h3 {
+	font-weight: 900;
+	color: #797979;
+	margin-top: 70px;
+	margin-left: 10px;
+}
+
+p {
+	color: #797979;
+}
+
+.phones {
+	margin: 80px 0 0 20px;
+	font-size: 30px;
+
+}
+
+.phones p {
+	color: #AAAAAA;
+	font-size: 32px;
+}
+
+#menu {
+	height: 50px;
+	background: #777777;
+
+}
+
+ul {
+    list-style-type: none;
+    display: inline !important;
+    margin: 0;
+    padding: 0;
+}
