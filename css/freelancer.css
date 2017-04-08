@@ -6,6 +6,7 @@
 body {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   overflow-x: hidden;
+  text-align: left;
 }
 p {
   font-size: 20px;
@@ -89,7 +90,15 @@ header .intro-text .name {
 header .intro-text .skills {
   font-size: 1.25em;
   font-weight: 300;
+
 }
+
+@media screen and (min-width: 380px){
+    body{
+        text-align: justify;
+    }
+}
+
 @media (min-width: 768px) {
   header .container {
     padding-top: 200px;
@@ -516,8 +525,4 @@ div#maincontent {
   outline: none;
 }
 
-@media screen and (max-width: 360px) {
-  section {
-    text-align: left;
-  }  
-}
+
