@@ -187,6 +187,7 @@ section.success {
 @media (max-width: 767px) {
   section {
     padding: 75px 0;
+    text-align: left;
   }
   section.first {
     padding-top: 75px;
@@ -513,4 +514,10 @@ fieldset[disabled] .btn-success.active {
 }
 div#maincontent {
   outline: none;
+}
+
+@media  max-width: 360px {
+  section {
+    text-align: left;
+  }  
 }
