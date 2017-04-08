@@ -516,7 +516,7 @@ div#maincontent {
   outline: none;
 }
 
-@media  max-width: 360px {
+@media screen and (max-width: 360px) {
   section {
     text-align: left;
   }  
